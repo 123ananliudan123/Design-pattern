@@ -65,6 +65,7 @@ public class Sorter<T> {
      * 设计模式 comparator   (想灵活地修改Cat中比较的方法)
      *
      * 给Sort加泛型
+     * (之前还涉及到static的用法)
      *
      */
 
