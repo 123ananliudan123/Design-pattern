@@ -40,6 +40,7 @@ public class Main {
         //System.out.println("按体重进行排序(升序)"+Arrays.toString(a));
 
         // Lambda表达式 —— 上面 按体重进行排序 可以通过这种方式，因为里面就一个方法
+        // 函数式接口
         sorter.sort(a, (o1, o2)->{
             if(o1.weight < o2.weight) return -1;
             else if (o1.weight>o2.weight) return 1;
